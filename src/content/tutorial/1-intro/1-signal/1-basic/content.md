@@ -20,6 +20,7 @@ A signal also needs a setter function/method to be useful.
 - Vue.js refs (aka signals) and Qwik signals have a `value` property which is used to read and write their value.
 - Angular signals return a getter function that also has a `set` method.
 - Svelte runes (aka signals) are mainly a compile-time abstraction and are used as if they were primitive values.
+- The official tc39 proposal (at stage 0) uses classes (ew).
 
 ## So, now what?
 
